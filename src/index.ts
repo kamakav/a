@@ -27,10 +27,6 @@ const getQuestionsElement = () => {
   return questionsElem;
 };
 
-const changeElementOpacity = (elem: HTMLElement) => {
-  elem.style.opacity = "0.9";
-};
-
 const highlightAnswers = (question: QuizQuestion) => {
   const questionsElem = getQuestionsElement();
   const arr: VueElement[] = Array.prototype.slice.call(questionsElem.children);
