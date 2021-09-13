@@ -28,7 +28,7 @@ const getQuestionsElement = () => {
 };
 
 const changeElementOpacity = (elem: HTMLElement) => {
-  elem.style.opacity = "-100%";
+  elem.style.opacity = "90%";
 };
 
 const highlightAnswers = (question: QuizQuestion) => {
@@ -82,8 +82,7 @@ const getRoomHash = (): string => {
 }
 
 const msg = `%c 
-    Script created by gbaranski#5119! deneme
-    https://github.com/gbaranski/quizizz-cheat
+    Script 
       `;
 
 
